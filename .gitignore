@@ -1,0 +1,11 @@
+*
+!!README.md
+!.gitignore
+!*.c
+!Makefile
+!*.h
+!Gauss method
+!Interpolation
+!Nonlinear equations. Bisection, chord, Newton.
+!Simple iteration method
+!Sweep method for tridiagonal systems
