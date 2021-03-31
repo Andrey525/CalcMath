@@ -7,7 +7,7 @@ double function(double x, double y)
     return pow(x, 2) - 2 * y;
 }
 
-void dif_Eiler(double a, double b, double n, double y0)
+void dif_Eiler(double a, double b, int n, double y0)
 {
     double *y, *x, *func;
     double h;
@@ -30,7 +30,7 @@ void dif_Eiler(double a, double b, double n, double y0)
     }
 }
 
-void dif_Runge_Kutta(double a, double b, double n, double y0)
+void dif_Runge_Kutta(double a, double b, int n, double y0)
 {
     double *y, *x, *k1, *k2, *k3, *k4, *delta_y;
     double h;
